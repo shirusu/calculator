@@ -20,7 +20,7 @@ body {
 }
 
 .btn {
-    border-radius: 50%;
+    border-radius: 30%;
     border: none;
     font-size: 20px;
     color: white;
@@ -34,7 +34,7 @@ body {
     background: darkorange;
 }
 
-.viewer {
+.output {
     width: 300px;
     height: 50px;
     color: white;
@@ -42,17 +42,9 @@ body {
     text-align: right;
     padding-top: 20px;
 
+
 }
 
-.head {
-    display: flex;
-    justify-content: space-between;
-}
-.operation {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 60px;
-}
 .btns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
